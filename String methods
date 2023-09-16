@@ -1,0 +1,32 @@
+# len = Find the length or the amount of letters in a string.
+# .find = Allows you to find a character within the string.
+# .capitalize = Capitalizes the first letter of the first word in the string.
+# .upper = Capitalizes the first letter of every word in the string.
+# .lower = Lower cases the first letter of every word in the string.
+# .isdigit = Determines whether the string is a digit or a word.
+# .isalpha = Determines whether the string contains only alphabetical words
+# .count= Counts how many of the specific letters or words there are within a string.
+# .replace= replaces a letter or word in a string
+# * = multiplies the string
+
+name = "diego martinez"
+
+print(len(name))
+
+print(name.find("d"))
+
+print(name.capitalize())
+
+print(name.upper())
+
+print(name.lower())
+
+print(name.isdigit())
+
+print(name.isalpha())
+
+print(name.count("e"))
+
+print(name.replace("o","a"))
+
+print(name*3)
